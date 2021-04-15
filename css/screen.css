@@ -75,6 +75,13 @@ h1 {
   font-family: 'Playfair Display', serif;
 }
 
+@media (min-width: 768px) {
+  h1 {
+    font-size: 58px;
+    line-height: 64px;
+  }
+}
+
 h2 {
   font-size: 23px;
   line-height: 32px;
@@ -264,6 +271,30 @@ a:focus {
   max-width: 40em;
 }
 
+/*
+  Utility: Margins
+*/
+
+.u-mb-clear {
+  margin-bottom: 0;
+}
+
+.u-mb-sm {
+  margin-bottom: 8px;
+}
+
+.u-mb-md {
+  margin-bottom: 16px;
+}
+
+.u-mb-default {
+  margin-bottom: 24px;
+}
+
+.u-mb-lg {
+  margin-bottom: 32px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
@@ -271,12 +302,6 @@ a:focus {
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {
-  h1 {
-    font-size: 58px;
-    line-height: 64px;
-  }
-}
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
 
